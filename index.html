@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Planets of the Solar System</title>
+    <link href="style.css" rel="stylesheet" />
+    <script defer src="index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Planets of the Solar System</h1>
+    <label>
+      Search planets:
+      <input
+        type="text"
+        name="search"
+        class="search"
+        placeholder="Enter words to search for..."
+      />
+    </label>
+    <br />
+    <br />
+    <div class="atmosphere-buttons">
+      Filter planets by atmosphere:
+      <button class="atmosphere-button currently-selected-button">All</button>
+      <button class="atmosphere-button">Carbon Dioxide</button>
+      <button class="atmosphere-button">Oxygen</button>
+      <button class="atmosphere-button">Hydrogen</button>
+    </div>
+    <div class="planets"></div>
+  </body>
+</html>

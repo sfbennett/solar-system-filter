@@ -1,0 +1,126 @@
+html {
+  background: #222222;
+  height: 100%;
+  background-image: url("./background2.jpg");
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  line-height: 1.5;
+  max-width: 900px;
+  min-height: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-family: "Rubik Moonrocks", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 50px;
+  word-spacing: 5px;
+}
+
+.planet {
+  border: 2px solid black;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  padding: 10px;
+  margin: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.planets {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+p {
+  margin: 0;
+}
+
+.planet-name {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.planet-circumference,
+.planet-distance {
+  font-style: italic;
+}
+
+.planet-Earth {
+  background: #91c483;
+}
+
+.planet-Mars {
+  background: #d04848;
+}
+
+.planet-Venus {
+  background: #83c0c1;
+}
+
+.planet-Mercury {
+  background: #f3b95f;
+}
+
+.planet-Jupiter {
+  background: #6895d2;
+}
+
+.planet-Saturn {
+  background: #fde767;
+}
+
+.planet-Uranus {
+  background: #6962ad;
+}
+
+.planet-Neptune {
+  background: #ffb0b0;
+}
+
+.search {
+  padding: 5px;
+  font-size: 14px;
+  width: 19%;
+}
+
+.hide {
+  display: none;
+}
+
+/* Buttons */
+
+.atmosphere-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.atmosphere-button {
+  padding: 5px 10px;
+  font-weight: bold;
+}
+
+/* Search Bar */
+
+label {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  margin-left: 10px;
+}
