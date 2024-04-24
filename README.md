@@ -10,6 +10,7 @@ Whole page:
 
 <img width="1508" alt="image" src="https://github.com/sfbennett/solar-system-filter/assets/156936136/e6d58170-3249-4200-a37b-ee8c413d9959">
 
+
 Filtering: 
 
 <img width="1207" alt="image" src="https://github.com/sfbennett/solar-system-filter/assets/156936136/8be70db6-b920-4966-a723-4f48252fc1cf">
